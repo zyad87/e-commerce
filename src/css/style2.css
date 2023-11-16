@@ -1,0 +1,57 @@
+.custom-form-control,
+.dropdown a.custom-btn {
+  border: 1px solid #EEF0EA;
+  box-shadow: none;
+  border-radius: 2px;
+  color: #868686;
+  height: 38px;
+  padding: 6px 16px 7px;
+  transition: all 0.3s ease;
+}
+
+.custom-form-control:focus {
+  border-color: #38B6FF;
+  box-shadow: 0 0 2px 0 #38B6FF;
+  background-color: #EEF0EA;
+}
+
+.dropdown a.custom-btn:hover {
+  background-color: #EEF0EA;
+  border: 1px solid #38B6FF;
+  color: #38B6FF;
+}
+
+.dropdown a.custom-btn:focus {
+  color: #38B6FF;
+}
+
+.custom-btn-outline-warning {
+  background-color: transparent;
+  border-color: #38B6FF;
+  color: #38B6FF;
+  transition: all 0.3s ease;
+}
+
+.custom-btn-warning {
+  color: #fff;
+  background-color: #38B6FF;
+  border-color: #38B6FF;
+  border-radius: 2px;
+}
+
+.custom-btn-warning:hover,
+.custom-btn-warning:active,
+.custom-btn-warning:focus,
+.custom-btn-warning:active:focus,
+.custom-btn-warning:active:hover {
+  color: #fff;
+  background-color: #0074b8;
+}
+
+.add-to-cart-btn {
+  color: #38B6FF;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style2.css.map */
